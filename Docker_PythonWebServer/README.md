@@ -49,7 +49,6 @@
       """Handle requests in a separate thread."""
       
   if __name__ == "__main__":
-      print("Server started.")
       webServer = ThreadedHTTPServer((hostName, serverPort), Handler)
       
       try:
