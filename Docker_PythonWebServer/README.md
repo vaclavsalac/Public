@@ -77,3 +77,8 @@
 2. Run: ``sudo docker build -f dockerfile . -t python_web_server``
  
 3. Run: ``sudo docker run --rm -p 8000:80 --name python_web_server python_web_server``
+
+
+### Result
+
+To view the created result, simply type ``http://localhost:8000`` into the web browser on the host.
