@@ -75,6 +75,6 @@
  
 1. In the terminal, navigate to the folder you created.
 
-2. Run: ``docker build -f dockerfile . -t python_web_server``
+2. Run: ``sudo docker build -f dockerfile . -t python_web_server``
  
-3. Run: ``docker run --rm -p 8000:80 --name python_web_server python_web_server``
+3. Run: ``sudo docker run --rm -p 8000:80 --name python_web_server python_web_server``
